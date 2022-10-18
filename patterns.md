@@ -15,12 +15,15 @@
 > Mainframe-to-cloud migration or mainframe replacement is not an easy
 > option for organizations that can't afford downtime or errors and rely
 > on mainframe extreme throughput.
+> 
 > The first challenges are technical, as full rewrite of mainframe
 > applications are complex and time consuming (millions of lines of
 > code, decades of patches applied, little or no documentation).
+> 
 > There are commercial challenges as well, significant investment needed
 > due to lengthy processes and resource intensive effort. This can make
 > it difficult to forecast exact investment required.
+> 
 > Lastly, there are missing mainframe apps experts and insufficient
 > skills of migration/transformation solutions.
 
@@ -74,7 +77,7 @@
 
 > In the scenarios where message-oriented middleware (MOM) systems such
 > as IBM MQ or TIBCO Enterprise Messaging Service (EMS) are already
-> running and integrated with mainframe, you cannot simply turn it off,
+> running and integrated with mainframe, you cannot simply turn MOM off,
 > or cut it out and replace it. Therefore, leverage existing MQ and
 > Enterprise Service Bus (ESB) solutions to integrate with cloud-based
 > streaming and messaging services. These act as a buffer to keep data
@@ -89,10 +92,9 @@
     decommission on-premises MOM platform.
 
 ![A screenshot of a computer Description automatically generated with
-low confidence](./images/media/image1.png){width="6.5in"
-height="4.728472222222222in"}
+low confidence](./images/media/image1.png)
 
-*figure 3. MOM based integration*
+*figure 1. MOM based integration*
 
 ##### Workflow
 
@@ -131,10 +133,9 @@ height="4.728472222222222in"}
     systems running on AWS
 
 ![A screenshot of a computer Description automatically generated with
-low confidence](./images/media/image2.png){width="6.5in"
-height="3.4881944444444444in"}
+low confidence](./images/media/image2.png)
 
-f*igure 1. File based integration*
+f*igure 2. File based integration*
 
 ##### Workflow
 
@@ -192,10 +193,9 @@ f*igure 1. File based integration*
 
 -   Real-time analytics
 
-![](./images/media/image3.png){width="6.5in"
-height="3.838888888888889in"}
+![](./images/media/image3.png)
 
-*figure 2. Transaction based integration*
+*figure 3. Transaction based integration*
 
 1.  3^rd^ party commercial CDC solutions, such as Attunity, tcVision can
     be used to facilitate real-time data movement between mainframe and
