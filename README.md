@@ -54,7 +54,7 @@
 
 > In this solution overview, we will discuss some patterns to integrate
 > with mainframe data to build microservice-oriented, event streaming
-> application with Kafka and Kubernetes at its core as well as making
+> applications with Kafka and Kubernetes at its core as well as making
 > data available for latest cloud services such as analytics, and
 > machine learning (ML).
 >
@@ -102,8 +102,7 @@ low confidence](./images/media/image1.png)
     open-source Kafka source connector for MQ or other messaging
     platform. Amazon Managed Streaming for Kafka (MSK) Connect service
     provides the infrastructure to run the connector plug-ins. The
-    messages can then be published to MSK topics or any queue-based
-    services like RabbitMQ or Amazon MQ.
+    messages can then be published to MSK topics.
 
 2.  After the data is available in the Kafka topic, stream processing
     microservice deployed on RedHat Open Shift on AWS (ROSA) or any
