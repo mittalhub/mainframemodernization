@@ -15,15 +15,12 @@
 > Mainframe-to-cloud migration or mainframe replacement is not an easy
 > option for organizations that can't afford downtime or errors and rely
 > on mainframe extreme throughput.
->
 > The first challenges are technical, as full rewrite of mainframe
 > applications are complex and time consuming (millions of lines of
-> code, decades of patches applied, little or no documentation)
->
+> code, decades of patches applied, little or no documentation).
 > There are commercial challenges as well, significant investment needed
 > due to lengthy processes and resource intensive effort. This can make
 > it difficult to forecast exact investment required.
->
 > Lastly, there are missing mainframe apps experts and insufficient
 > skills of migration/transformation solutions.
 
