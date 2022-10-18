@@ -197,7 +197,7 @@ f*igure 2. File based integration*
 
 *figure 3. Transaction based integration*
 
-1.  3^rd^ party commercial CDC solutions, such as Attunity, tcVision can
+1.  3rd party commercial CDC solutions, such as Attunity, tcVision can
     be used to facilitate real-time data movement between mainframe and
     AWS. On the first connection, the CDC tools reads a consistent
     snapshot of all the tables that are whitelisted. When that snapshot
